@@ -62,8 +62,11 @@
     background-color: red;
 }
 
+
+/* second card work starts here */
 .second-card{
     margin-left: 380px !important;  
+    margin-bottom: 80px !important;
 }
 .second-card-row{
     justify-content: space-between;

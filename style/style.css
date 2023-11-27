@@ -1,0 +1,63 @@
+
+.title-checkout{
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.container .card{
+    margin: auto;
+    width: 380px !important;
+}
+
+.form-label{
+   
+        display: block;
+        margin: 0 0 .28571429rem 0;
+        color: rgba(0,0,0,.87);
+        font-size: .92857143em;
+        font-weight: 700;
+        text-transform: none;
+    
+}
+
+.disabled-field{
+    clear: both !important;
+    margin: 0 0 1em !important;
+    padding: 10px ;
+}
+
+.selection-btn{
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    justify-content: center;
+    column-gap: 0.75rem;
+    display: flex;
+}
+
+.select{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: rgb(43, 30, 30);
+    
+    justify-content: center;
+    /* cursor: pointer; */
+}
+.active{
+    background-color: #032657;
+    color: white;
+}
+.select:hover{
+    color: white;
+    background-color: #032657;
+}
+.select::selection{
+    background-color: red;
+}

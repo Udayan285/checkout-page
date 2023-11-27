@@ -74,3 +74,26 @@
 .second-card-row .right{
     text-align: right;
 }
+.second-card-row{
+    margin-bottom: 10px;
+}
+
+.title{
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+}
+.active-mode{
+    color: #f58a07;
+    font-weight: 600;
+}
+.btn-sub{
+    background-color: #f58a07;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.btn-sub:hover{
+    background-color: #f58a07;
+    color: white;
+}

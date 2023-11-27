@@ -61,3 +61,13 @@
 .select::selection{
     background-color: red;
 }
+
+.second-card{
+    margin-left: 380px !important;  
+}
+.second-card-row{
+    justify-content: space-between;
+}
+.second-card-row .right{
+    text-align: right;
+}
